@@ -1,4 +1,20 @@
 +ya tenemos la base de datos creada
 +creamos el proposalController
--crear el default.blade y sacar las vistas
--crear el home.blade para sacar las propuestas
++crear el default.blade y sacar las vistas
++crear el home.blade para sacar las propuestas
++crear el login
++crear el registrar
++revisar porque no loguea ni crea usuarios /era xq no encriptabamos la contraseña
+-ya loguea al usuario nuevo
+
+-crear una nueva propuesta
+-login social
+-fotos y cometarios de propuesta
+
+
+
+
+
+//////////////
+el default.blade es el que carga la vista general
+el home.blade, la portada

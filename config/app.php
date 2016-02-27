@@ -155,7 +155,7 @@ return [
         opinion\Providers\AuthServiceProvider::class,
         opinion\Providers\EventServiceProvider::class,
         opinion\Providers\RouteServiceProvider::class,
-
+        opinion\Providers\ViewComposerServiceProvider::class,
     ],
 
     /*
