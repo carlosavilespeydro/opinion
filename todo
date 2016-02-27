@@ -5,9 +5,12 @@
 +crear el login
 +crear el registrar
 +revisar porque no loguea ni crea usuarios /era xq no encriptabamos la contraseña
--ya loguea al usuario nuevo
++ya loguea al usuario nuevo
++crear una nueva propuesta
 
--crear una nueva propuesta
+
+-editar nueva propuesta
+
 -login social
 -fotos y cometarios de propuesta
 
