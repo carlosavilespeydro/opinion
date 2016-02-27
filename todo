@@ -14,9 +14,6 @@
 -fotos y cometarios de propuesta
 
 
-
-
-
 //////////////
 el default.blade es el que carga la vista general
 el home.blade, la portada
