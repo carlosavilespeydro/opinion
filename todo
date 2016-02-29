@@ -7,8 +7,7 @@
 +revisar porque no loguea ni crea usuarios /era xq no encriptabamos la contraseña
 +ya loguea al usuario nuevo
 +crear una nueva propuesta
-
--ya existe la vista para editar, falta guardar los cambios
++ya existe la vista para editar y guarda los datos editados
 
 -login social
 -fotos y cometarios de propuesta

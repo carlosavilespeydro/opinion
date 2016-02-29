@@ -56,5 +56,25 @@ class ProposalController extends Controller
         return view('proposal.edit', ['proposal' => $proposal]);
     }
 
+    public function update(Request $request, $id){
+
+
+        $proposal = proposal::findOrFail($id);
+        $proposal->title = $request->get('title');
+        $proposal->body = $request->get('body');
+        $proposal->save();
+
+        return redirect()->route('proposal_show_path', $proposal->id);
+    }
+
+    public function deleteProposal($id)
+    {
+
+        $proposal = proposal::findOrFail($id);
+        $proposal->delete();
+        return redirect()->route('user_show_path');
+
+
+    }
 
 }

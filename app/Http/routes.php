@@ -42,11 +42,19 @@ Route::group(['middleware' => ['web','auth']], function () {
         'as'   => 'user_show_path',
     ]);
 
+    Route::get('sugerencia/delete/{id}', [
+        'uses' => 'ProposalController@deleteProposal',
+        'as'   => 'proposal_delete_path',
+    ]);
+
     Route::get('sugerencia/edit/{id}', [
         'uses' => 'ProposalController@editProposal',
         'as'   => 'proposal_edit_path',
     ]);
-
+    Route::patch('sugerencia/edit/{id}', [
+        'uses' => 'ProposalController@update',
+        'as'   => 'proposal_update_path',
+    ]);
 
 });
 
