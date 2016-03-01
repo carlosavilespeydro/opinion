@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <script type="text/javascript" src="/js/script.js"></script>
 </head>
-<body>
+<body><? phpini_set('display_errors',"1"); ?>
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
