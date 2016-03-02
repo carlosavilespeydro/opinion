@@ -31,4 +31,9 @@ class User extends Authenticatable
     {
         return $this->hasMany(\opinion\proposal::class, 'author_id');
     }
+
+    public function comments()
+    {
+        return $this->hasMany(Comment::class, 'Author_id');
+    }
 }

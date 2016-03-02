@@ -18,3 +18,10 @@
 
     }
 
+
+    function viewNewComment(id)
+    {
+        document.getElementById('newCommentForm').style.display="inherit";
+        document.getElementById("deleteButton").setAttribute('onclick',id);
+
+    }

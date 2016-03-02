@@ -1,12 +1,13 @@
-<html>
+<html lang="es">
 <head>
     <title>Opinion de ibi</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://bootswatch.com/spacelab/bootstrap.min.css" >
     <link rel="stylesheet" href="/css/style.css">
     <script type="text/javascript" src="/js/script.js"></script>
-</head>
-<body><? phpini_set('display_errors',"1"); ?>
+
+    </head>
+<body>
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">

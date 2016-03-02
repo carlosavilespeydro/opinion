@@ -27,6 +27,13 @@
 
 Route::group(['middleware' => ['web','auth']], function () {
 
+
+    Route::post('sugerencia/comment/{id}', [
+        'uses' => 'ProposalController@storeComment',
+        'as'   => 'proposal_comment_path',
+    ]);
+
+
     Route::get('/sugerencia/new', [
         'uses' => 'ProposalController@newProposal',
         'as'   => 'proposal_new_path',
@@ -55,6 +62,8 @@ Route::group(['middleware' => ['web','auth']], function () {
         'uses' => 'ProposalController@update',
         'as'   => 'proposal_update_path',
     ]);
+
+
 
 });
 
